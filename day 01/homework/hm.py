@@ -15,6 +15,6 @@ family_name="giorgi cxvaradze"
 boolean_pet=True
 boolean_bird=False
 
-#(string) monacemta ertbolioba saxelebit, gvarebit, samsaxuris tipebit da ase shemdeg
-#(integer) inaxavs monacemebs cifrebis shesaxeb romlebic sheidzleba iyos negatiuri da dadebiti ricxvta ertoblioba
+#(string) nebismieri ram rav aris brchyalebshi movemuli
+#(integer) inaxavs monacemebs cifrebis shesaxeb romlebic sheidzleba iyos negatiuri da dadebiti ricxvta ertoblioba(mteli ricxvebi)
 #(boolean) azustebs an uaryobs arsebul teqsts tu kitxvas
