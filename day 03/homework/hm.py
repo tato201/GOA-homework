@@ -8,12 +8,20 @@ print(age)
 
 print("hello! My name is " + name + " and my surename is " + surename +", I am " + age +" years old.")
 
-numbers="40, 41, 623, 756, 12, 6, 78, 9"
-12 / 6
-756 / 9
-623 - 78
-41 - 40 
-12 + 9
-40 + 756
-6 * 9
-623 * 756
+num = 14
+num1 = 415
+num2 = 1453
+num3 = 541
+num4 = 2
+
+print(num + num1)
+print(num2 + num3)
+
+print(num2 * num)
+print(num3 * num4)
+
+print(num3 - num2)
+print(num2 - num3)
+
+print(num2 / num4)
+print(num1 / num)
