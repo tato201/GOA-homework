@@ -1,6 +1,6 @@
-name = input("What is your name")
+name = input("What is your name ")
 print(f"hello {name}")
-age = input("How old are u")
+age = input("How old are u ")
 print(f"I am {age} years old")
 
 height = 2
@@ -12,8 +12,8 @@ S=(width * height)/(P)
 print(S)
 
 
-number1 = int(input("choose a number"))
-number2 = int(input("choose a number2"))
+number1 = int(input("choose a number "))
+number2 = int(input("choose a number2 "))
 
 print(number1 + number2)
 print(number1 * number2)
