@@ -11,6 +11,8 @@ print(P)
 S=(width * height)/(P) 
 print(S)
 
+#input aris momxmareblis mier migebuli informacia da abrunebs stringis saxit
+#output achvenebs brchyalebshi chasmul striqons
 
 number1 = int(input("choose a number "))
 number2 = int(input("choose a number2 "))
