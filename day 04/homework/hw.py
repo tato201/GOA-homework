@@ -11,9 +11,9 @@ print(P)
 S=(width * height)/(P) 
 print(S)
 
-print("choose a number")
-number1 = int(input())
-number2 = int(input())
+
+number1 = int(input("choose a number"))
+number2 = int(input("choose a number2"))
 
 print(number1 + number2)
 print(number1 * number2)
