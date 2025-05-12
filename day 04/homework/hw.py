@@ -3,8 +3,8 @@ print(f"hello {name}")
 age = input("How old are u ")
 print(f"I am {age} years old")
 
-height = 2
-width = 1.2
+height = int(input("height"))
+width = int(input("width")
 #perimetri/fartobi
 P=(height + width)*2
 print(P)
