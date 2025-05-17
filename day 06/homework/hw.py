@@ -21,7 +21,7 @@ num3 = num + num2
 print(num + num2 + num3)
 
 #4 davaleba
-#pasuxi iqneba true radgan saboloo pasuxi gvrcheba true or false 
+#pasuxi iqneba true radgan saboloo pasuxi gvrcheba  true or false
 
 #4 davalebis 2 nawili
 # 5 > 10 aris False
@@ -43,7 +43,7 @@ print(int(True))
 #STR
 print(str('1231'))
 print(str(123.1234))
-print(str('false'))
+print(str(True))
 #FLOAT
 print(float(123))
 print(float("43.123"))
