@@ -1,0 +1,48 @@
+<!-- html არის პროგრამირების ენა რომელსაც ვიყენებთ საიტების სტრუქტურის შესაქმნელად -->
+
+<!-- empty tag - არის თაგი რომელსაც არ აქვს დამხურავი თაგი(<img>)
+container tag - არის თაგი რომელსაც აქვს გამხსნელი და დამხურავი მაგალითად (<p></p>)(<button></button>) -->
+
+<!-- თეგების პატარაასოებით წერა კარგი არის იმიტომ რომ html კოდს პატარა ასოწბით უფრო მარტივად კითხულობს -->
+
+<!-- 
+<head> – შეიცავს გვერდის დამატებით ინფორმაციას მაგალითად <title>
+<body> – გვერდის ხილული ნაწილი, სადაც ჩანს ტექსტი, სურათები და სხვა ელემენტები
+<title> – გვერდის სათაური, რომელიც ჩნდება ბრაუზერის ზემოთ 
+<meta> – გამოიყენება გვერდის მეტა-მონაცემებისთვის 
+<p> – აბზაცი  გამოიყენება ტექსტური წარწერებისთვის
+<h1> - <h6> – სათაურები, <h1> არის ყველაზე დიდი, <h6> ყველაზე პატარა
+<button> – ღილაკი, რომელსაც შეიძლება ქონდეს ფუნქცია ან ტექსტი
+<img> – სურათის ჩასასმელად, არის empty tag.
+<table> – ცხრილის შესაქმნელად.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Web Page</title>
+</head>
+<body>
+
+    <h1>Welcome to My Web Page</h1>
+    <h3>Photo Gallery</h3>
+    <h5>Enjoy these beautiful images</h5>
+
+    <img src="baby_otter.png" width="400" >
+    <img src="otter.png" width="400" >
+    <img src="kitty.png"  width="400">
+    <img src="kitty2.png" width="400">
+
+    <p>Look at them, They're cute, right?</p>
+    <p>Click the buttons below to interact!</p>
+
+    <button onclick="alert('You clicked Button 1')">Click Me 1</button>
+    <button onclick="alert('You clicked Button 2')">Click Me 2</button>
+    <button onclick="alert('You clicked Button 3')">Click Me 3</button>
+    <button onclick="alert('You clicked Button 4')">Click Me 4</button>
+
+</body>
+</html>
+
