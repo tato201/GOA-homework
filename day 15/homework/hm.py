@@ -6,6 +6,8 @@
 
 # List-ს შეუძლია შეინახოს ნებისმიერი ტიპის მონაცემი
 
-books = "The Great Gatsby by F. Scott Fitzgerald", "Ulysses by James Joyce", " In Search of Lost Time by Marcel Prous"
+books = ["The Great Gatsby by F. Scott Fitzgerald", "Ulysses by James Joyce", " In Search of Lost Time by Marcel Prous"]
+
+
 print(books)
 print(len(books))
