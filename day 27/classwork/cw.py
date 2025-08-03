@@ -13,9 +13,15 @@ def find_first_letter_position(text, letter):
         return "ასო ვერ მოიძებნა"
     return f"პირველად {letter} მდებარეობს ინდექსზე: {position}"
     
+print(find_first_letter_position("გთხოვ მომწერო", "მ")) 
+print(find_first_letter_position("გამარჯობა", "ყ"))   
+
 # 3
-def create_welcome_message(name):
-    return f"მოგესალმები, {name}. წარმატებები!"
+def დააბრუნე_მისალმება(სახელი):
+    return f"გამარჯობა, {სახელი}!"
+მისალმება = დააბრუნე_მისალმება("ლაშა")
+print(მისალმება)
+
 
 
 

@@ -1,41 +1,48 @@
 # 1
-def remove_first_last(chars):
-    return chars[1:-1]
+def ამოჭერი_პირველი_და_ბოლო(სიაში):
+    return სიაში[1:-1]
+print(ამოჭერი_პირველი_და_ბოლო(['ა', 'ბ', 'გ', 'დ']))
 
 # 2
-def multiply_sums(list1, list2):
-    sum1 = 0
-    sum2 = 0
-    for num in list1:
-        sum1 += num
-    for num in list2:
-        sum2 += num
-    return sum1 * sum2
+def გაამრავლე_ჯამები(სია1, სია2):
+    ჯამი1 = 0
+    ჯამი2 = 0
+
+    for რიცხვი in სია1:
+        ჯამი1 += რიცხვი
+    for რიცხვი in სია2:
+        ჯამი2 += რიცხვი
+
+    return ჯამი1 * ჯამი2
+
+print(გაამრავლე_ჯამები([1, 2, 3], [4, 5]))
 
 # 3
-def double_numbers(numbers):
-    i = 0
-    doubled = []
-    while i < len(numbers):
-        doubled.append(numbers[i] * 2)
-        i += 1
-    return doubled
+def გააორმაგე_რიცხვები_ვაილით(რიცხვები):
+    ინდექსი = 0
+    ახალი_სია = []
+    while ინდექსი < len(რიცხვები):
+        ახალი_სია.append(რიცხვები[ინდექსი] * 2)
+        ინდექსი += 1
+    return ახალი_სია
+
+print(გააორმაგე_რიცხვები_ვაილით([1, 2, 3])) 
 
 # 4
-def filter_even_numbers(numbers):
-    evens = []
-    for num in numbers:
-        if num % 2 == 0:
-            evens.append(num)
-    return evens
+def მხოლოდ_ლუწები(რიცხვები):
+    ლუწები = []
+    for რიცხვი in რიცხვები:
+        if რიცხვი % 2 == 0:
+            ლუწები.append(რიცხვი)
+    return ლუწები
+
+print(მხოლოდ_ლუწები([1, 2, 3, 4, 5, 6]))
 
 # 5
-def names_starting_with_n(names):
-    n_names = []
-    for name in names:
-        if name.startswith("N"):
-            n_names.append(name)
-    return n_names
-
-
-
+def სახელები_N_ზე(სათაურები):
+    შერჩეული = []
+    for სახელი in სათაურები:
+        if სახელი.startswith("N"):
+            შერჩეული.append(სახელი)
+    return შერჩეული
+print(["NINO", "giorgi", "NATIA", "saba", "irakli"])
